@@ -273,7 +273,7 @@ async def welcome(client, message: Message):
 @app.on_message(commandpro(["/alive", "Shizuka"]) & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/0d048443e85813227f253.jpg",
+        photo=f"https://te.legra.ph/file/145262fe8f647c7055380.jpg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, sʜɪᴢᴜᴋᴀ ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ 𝗢𝘄𝗻𝗲𝗿    : [AbhiModszYT](https://t.me/am_YTbot)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [sʜɪᴢᴜᴋᴀ ʜᴇʟᴘ](https://t.me/AbhiModszYT_Return)\n┣★ ꜱᴜᴘᴘᴏʀᴛ › : [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/Unknowns2BestFriends)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞𝔸𝕓𝕙𝕚𝕄𝕠𝕕𝕤𝕫𝕐𝕋💞 \n\n━━━━━━━━━━━━━━━━━━━━━━━━
 """,
         reply_markup=InlineKeyboardMarkup(
